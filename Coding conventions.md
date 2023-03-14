@@ -177,12 +177,9 @@ Try to avoid **catching** an **exception** as much as possible but use **if stat
 
 ```cs
 
-void DoThis()
+DoThis()
 {
-  if (apple == pear)
-  {
-    throw new Exception();
-  }
+  return (apple == pear);
 }
 
 if (DoThis())
@@ -190,9 +187,14 @@ if (DoThis())
   // It failed
 }
 
-NotThis()
+
+
+void NotThis()
 {
-  return (apple == pear);
+  if (apple == pear)
+  {
+    throw new Exception();
+  }
 }
 
 if (NotThis())
