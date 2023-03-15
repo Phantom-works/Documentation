@@ -109,6 +109,29 @@ NotThis()
 ```
 ***
 
+When writing multiple **if** statements use **defensive programming**.
+
+```cs
+if ()
+{
+  // exception
+}
+
+if ()
+{
+  // exception
+}
+
+if ()
+{
+  // exception
+}
+
+// Usual program
+
+```
+***
+
 ## Commenting conventions
 
 Place the commented line in a separate line of the code.
@@ -187,8 +210,6 @@ if (DoThis())
   // It failed
 }
 
-
-
 void NotThis()
 {
   if (apple == pear)
@@ -197,7 +218,11 @@ void NotThis()
   }
 }
 
-if (NotThis())
+try
+{
+  NotThis()
+}
+catch
 {
   // It failed
 }
