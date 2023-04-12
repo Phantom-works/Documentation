@@ -17,6 +17,6 @@
 ### -
 - really big
 
-[RAWG](https://api.rawg.io/docs/)
+[RAWG](https://api.rawg.io/docs)
 
 An api comparable to the IGDB api
