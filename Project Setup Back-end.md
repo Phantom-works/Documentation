@@ -39,12 +39,9 @@ To start the backend server, run the following command:
 npm start
 ```
 This will launch the Express server and start listening for incoming requests.
-## Step 5: Testing
+## Additional Scripts
 ***
 To run the tests for the backend, execute the following command:
-
-
 ```shell
 npm test
 ```
-This will run the test suite using Jest and ensure that your code is functioning correctly.
