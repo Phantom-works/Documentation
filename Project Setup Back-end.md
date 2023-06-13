@@ -36,7 +36,7 @@ To start the backend server, run the following command:
 
 
 ```shell
-npm start
+npm run build
 ```
 This will launch the Express server and start listening for incoming requests.
 ## Additional Scripts
