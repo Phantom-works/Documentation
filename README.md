@@ -15,4 +15,4 @@ See [here](https://github.com/Phantom-works/Documentation/blob/main/Coding%20con
 
 ## API endpoints
 A Document listing the APIs and their endpoints.
-See [here]()
+To see the GetGamesAPIs endpoints go [here]()
