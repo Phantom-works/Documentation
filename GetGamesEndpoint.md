@@ -65,7 +65,7 @@ Content-Type: application/json
     }
   }
 ]
-
+```
 # Error Responses
 
 If the request body is missing the genres property, the API will respond with a 400 (Bad Request) status code.
