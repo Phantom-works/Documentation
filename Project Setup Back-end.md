@@ -29,7 +29,7 @@ npm install
 This command will read the package.json file and download all the necessary dependencies listed under the dependencies and devDependencies sections.
 ## Step 3: Configure Environment Variables
 ***
-Create a .env file in the project's root directory and provide the required environment variables, following the following example
+Create a .env file in the project's root directory and provide the required environment variables, following the following example:
 
 ```.env
 TWITCH_CLIENT_ID=11111111111
