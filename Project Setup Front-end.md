@@ -55,5 +55,6 @@ This command generates optimized and minified static assets in the dist director
 ## Additional Scripts
 ***
 ```shell
-    npm run test:unit: Runs unit tests using the @testing-library/vue library.
+    npm run test unit
 ```
+Runs unit tests using the @testing-library/vue library.
