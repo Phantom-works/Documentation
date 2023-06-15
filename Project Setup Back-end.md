@@ -29,7 +29,14 @@ npm install
 This command will read the package.json file and download all the necessary dependencies listed under the dependencies and devDependencies sections.
 ## Step 3: Configure Environment Variables
 ***
-Create a .env file in the project's root directory and provide the required environment variables. The necessary variables can be found in the .env.example file provided in the repository. Update the values according to your configuration.
+Create a .env file in the project's root directory and provide the required environment variables, following the following example
+
+```.env
+TWITCH_CLIENT_ID=11111111111
+CLIENT_SECRET=1111111111
+TWITCH_APP_ACCESS_TOKEN=
+```
+
 ## Step 4: Start the Server
 ***
 To start the backend server, run the following command:
